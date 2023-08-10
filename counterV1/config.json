@@ -1,0 +1,96 @@
+{
+  "useTemplate": true,
+  "template": "increment",
+  "name": "counter",
+  "developer": {
+    "archwayd": {
+      "docker": false
+    },
+    "deployments": [
+      {
+        "project": "counter",
+        "type": "store",
+        "chainId": "localnet",
+        "codeId": 2,
+        "txhash": "50FE67C2F2254FC8BB88463E07F113786B715D06E46C7F1CCFF0BB5440E93F04"
+      },
+      {
+        "project": "counter",
+        "type": "store",
+        "chainId": "localnet",
+        "codeId": 1,
+        "txhash": "4EB73D3FF96ECFFC4698F5A7BBC624176789C8D9440A503EB4A3E7B9DDE6E080"
+      },
+      {
+        "project": "counter",
+        "type": "store",
+        "chainId": "localnet",
+        "codeId": 1,
+        "txhash": "4EB73D3FF96ECFFC4698F5A7BBC624176789C8D9440A503EB4A3E7B9DDE6E080"
+      },
+      {
+        "project": "counter",
+        "type": "store",
+        "chainId": "localnet",
+        "codeId": 1,
+        "txhash": "4EB73D3FF96ECFFC4698F5A7BBC624176789C8D9440A503EB4A3E7B9DDE6E080"
+      },
+      {
+        "project": "counter",
+        "type": "store",
+        "chainId": "localnet",
+        "codeId": 1,
+        "txhash": "4EB73D3FF96ECFFC4698F5A7BBC624176789C8D9440A503EB4A3E7B9DDE6E080"
+      },
+      {
+        "project": "counter",
+        "type": "store",
+        "chainId": "localnet",
+        "codeId": 1,
+        "txhash": "4EB73D3FF96ECFFC4698F5A7BBC624176789C8D9440A503EB4A3E7B9DDE6E080"
+      },
+      {
+        "project": "counter",
+        "type": "store",
+        "chainId": "localnet",
+        "codeId": 2,
+        "txhash": "50FE67C2F2254FC8BB88463E07F113786B715D06E46C7F1CCFF0BB5440E93F04"
+      },
+      {
+        "project": "counter",
+        "type": "store",
+        "chainId": "localnet",
+        "codeId": 1,
+        "txhash": "F36787642D55F7A11CF3C6FD91FFBA6AEE0D9F94E5B4034D45F2AD98EC7B466C"
+      }
+    ]
+  },
+  "network": {
+    "name": "local",
+    "chainId": "localnet",
+    "type": "local",
+    "fees": {
+      "feeDenom": "stake"
+    },
+    "gas": {
+      "prices": "0.00002stake",
+      "mode": "auto",
+      "adjustment": "1.5"
+    },
+    "wasm": {
+      "bech32Hrp": "archway",
+      "archwayd": "0.1.0",
+      "configDir": ".archway",
+      "binary": "archwayd"
+    },
+    "urls": {
+      "rpc": {
+        "url": "tcp://localhost",
+        "port": 26657
+      },
+      "faucets": [
+        "http://localhost:8000"
+      ]
+    }
+  }
+}
